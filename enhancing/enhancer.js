@@ -13,8 +13,9 @@ function fail(item) {
   return { ...item };
 }
 
-function repair(item) {
-  return { ...item };
+function repair(a, b) {
+  return a + b;
+  // return { ...item };
 }
 
 function get(item) {
